@@ -1,0 +1,175 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "mark",
+        "password": "bobby",
+        "firstName": "Mark",
+        "lastName": "Hale M.D.",
+        "address": "777 Physicians Circle Nashville TN 37209",
+        "email": "hale@med.com",
+        "phone": "865-777-8989",
+        "isAdmin": true,
+        "practiceName": "ENT Associates"
+      },
+      {
+        "id": 2,
+        "username": "klaus2",
+        "password": "klaus",
+        "firstName": "Klaus",
+        "lastName": "Hardt",
+        "birthday": "1-29-85",
+        "address": "701 Hardwicke Dr Knoxville TN 37209",
+        "phone": "865-809-0598",
+        "email": "khardt@comcast.net",
+        "insurance": "BCBS",
+        "isAdmin": false
+      },
+      {
+        "username": "j",
+        "password": "j",
+        "lastName": "Jones",
+        "id": 3,
+        "isAdmin": false,
+        "firstName": "Indiana",
+        "address": "312 Temple of Doom Dr.  Berlin Germany 887888",
+        "email": "jones@indiana.com",
+        "birthday": "3-12-56",
+        "phone": "877-889-8887",
+        "insurance": "Temple"
+      },
+      {
+        "username": "h",
+        "password": "f",
+        "lastName": "Ford",
+        "id": 4,
+        "isAdmin": false,
+        "firstName": "Harrison"
+      },
+      {
+        "username": "g",
+        "password": "l",
+        "lastName": "Lucas",
+        "id": 5,
+        "isAdmin": false,
+        "firstName": "George"
+      },
+      {
+        "username": "b",
+        "password": "b",
+        "lastName": "Baggins",
+        "id": 6,
+        "isAdmin": false,
+        "firstName": "Bilbo"
+      },
+      {
+        "username": "s",
+        "password": "s",
+        "lastName": "McSickface",
+        "id": 7,
+        "isAdmin": false,
+        "firstName": "Sicky"
+      }
+    ],
+    "medications": [
+      {
+        "medName": "Tylenol",
+        "dosage": "200mg 2x daily",
+        "userId": 2,
+        "id": 5
+      },
+      {
+        "medName": "Tylenol",
+        "dosage": "2x daily 200mg",
+        "userId": 3,
+        "id": 8
+      },
+      {
+        "medName": "mnbmbn",
+        "dosage": "mnbmnb",
+        "userId": 3,
+        "id": 10
+      },
+      {
+        "medName": "Ambien",
+        "dosage": "5mg 1 x daily",
+        "userId": 2,
+        "id": 11
+      },
+      {
+        "medName": "Caffeine",
+        "dosage": "4 cups daily",
+        "userId": 2,
+        "id": 12
+      }
+    ],
+    "appointments": [
+      {
+        "date": "2018-10-05T05:00:00.000Z",
+        "time": "10:30AM",
+        "userId": 3,
+        "id": 1
+      },
+      {
+        "date": "2018-10-09T05:00:00.000Z",
+        "time": "3:30PM",
+        "userId": 4,
+        "id": 2
+      },
+      {
+        "date": "2018-10-18T05:00:00.000Z",
+        "time": "10:00AM",
+        "userId": 5,
+        "id": 3
+      },
+      {
+        "date": "2018-10-18T05:00:00.000Z",
+        "time": "1:00PM",
+        "userId": 6,
+        "id": 4
+      },
+      {
+        "date": "2018-10-19T05:00:00.000Z",
+        "time": "10:30AM",
+        "userId": 7,
+        "id": 5
+      },
+      {
+        "date": "2018-10-31T05:00:00.000Z",
+        "time": "1:00PM",
+        "userId": 2,
+        "id": 6
+      }
+    ],
+    "messages": [
+      {
+        "date": "10/01/2018 at 19:19:41 PM",
+        "userId": 2,
+        "content": "wasup doc!",
+        "recipientId": 1,
+        "id": 1
+      },
+      {
+        "date": "10/01/2018 at 19:19:55 PM",
+        "userId": 1,
+        "content": "omg you again",
+        "recipientId": 2,
+        "id": 2
+      },
+      {
+        "date": "10/01/2018 at 19:21:40 PM",
+        "userId": 1,
+        "content": "hey Jones",
+        "recipientId": 3,
+        "id": 3
+      },
+      {
+        "date": "10/01/2018 at 19:58:39 PM",
+        "userId": 2,
+        "content": "test",
+        "recipientId": 1,
+        "id": 4
+      }
+    ],
+    "conversations": []
+  }
